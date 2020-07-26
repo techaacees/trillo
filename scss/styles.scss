@@ -1,0 +1,17 @@
+//global reset
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #cccccc;
+    padding: 10px;
+}
+.item{
+    background-color: blue;
+    padding: 40px;
+    margin: 30px;
+    color: #fff;
+    font-size: 40px;
+}
