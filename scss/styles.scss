@@ -7,6 +7,12 @@
 .container{
     background-color: #cccccc;
     padding: 10px;
+    display: flex; //child elements becomes flex items and displayed side by side
+
+    flex-direction: row; //default flexbox direction goes from left to right
+    //flex-direction:row-reverse; //inverts the direction of the main access(flex-direction: row-reverse)
+    //flex-direction: column; //lays items on the cross axis from top to bottom
+    //flex-direction: column-reverse; //inverts the direction of the cross axis
 }
 .item{
     background-color: blue;
