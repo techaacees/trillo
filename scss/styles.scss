@@ -13,6 +13,16 @@
     //flex-direction:row-reverse; //inverts the direction of the main access(flex-direction: row-reverse)
     //flex-direction: column; //lays items on the cross axis from top to bottom
     //flex-direction: column-reverse; //inverts the direction of the cross axis
+  
+    //justify-content: center; // centers the entire content
+    // justify-content: space-between; //space is evenly diristibuted between items
+    //justify-content: space-around; //same amount of space on both left and right side of each of the flex items
+    //justify-content: space-evenly; // space between and and space on the side are equal
+   // justify-content: flex-end; //pushes the items to the right side
+    //justify-content: flex-start; //pushes the items to be in the left side; i.e. flexbox default
+    justify-content: center;
+
+    //align items-defines how the items are aligned the cross access
 }
 .item{
     background-color: blue;
